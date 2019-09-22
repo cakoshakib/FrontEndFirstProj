@@ -1,6 +1,7 @@
 body {
-    background: url(images/background.jpg), center, no-repeat;
+    background: url(images/Forest-Desktop-Backgrounds-Wallpaper-Picture.jpg), center, no-repeat;
     background-size:cover;
+
 }
 
 #container {
@@ -20,6 +21,8 @@ img {
 
 
 .center {
+    font-family: 'Courier', monospace;
+    display:inline-block;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -30,13 +33,47 @@ img {
     color: white;
 }
 
+h1 {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 1.5s steps(6, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-weight: 700;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -5px 5px 0 #000,
+            1px 1px 0 #000;
+    border-right: 4px solid green;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}
+
+
 nav ul li:last-child {
     float:right;
 }
 nav {
     position:top;
     length: 5px;
-    background-color: rgba(0, 0, 0 , 0.7);
     align: center;
 
 }
@@ -61,15 +98,22 @@ li a {
     padding: 15px 30px;
     text-decoration: none;
     length: 5px;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
 }
 li a:hover {
-    background-color: #007d38;
-
+    font-size: 101%;
+    border-bottom:solid;
+    border-width: 1px;
 }
 
 .active {
-    background-color: #006e31;
+    color: green;
+    text-shadow:
+
 }
 .active:hover {
-    background-color: #006e31;
 }
