@@ -66,8 +66,11 @@ h3 {
             -1px 1px 0 #000,
             1px 1px 0 #000;
     padding:5px;
-    border-style: solid;
-    border-radius: 2px;
+    border-radius:10px;
+    width:100px;
+    background-color: rgba(0,0,0,0.4);
+    transition:background-color 600ms ease-in;
+
 }
 h3:hover {
     text-shadow:
@@ -75,6 +78,8 @@ h3:hover {
             1px -1px 0 #000,
             -2px 2px 0 #000,
             1px 1px 0 #000;
+    background-color: rgba(0,0,0,0.7);
+
 }
 
 h1 {
@@ -147,6 +152,8 @@ li a {
             -2px 2px 0 #000,
             2px 2px 0 #000;
     font-size:1em;
+
+
 }
 
 li a:hover {
@@ -155,9 +162,13 @@ li a:hover {
     border-width: 1px;
 }
 
+#pdance:hover {
+
+}
 .active {
     color: green;
 
 }
 .active:hover {
 }
+
