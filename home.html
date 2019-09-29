@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel = "stylesheet" href ="homestyle.css" type = "text/css" />
+    <link rel = "stylesheet" href = "Animate.css" type = "text/css" />
     <link href="https://fonts.googleapis.com/css?family=Jaldi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel = "javascript" href="homepagejs.js" type="text/javascript">
 </head>
 <body>
     <div id = container>
-        <div id = "bg-image"></div>
-        <div class = center>
-            <h1>Pandas</h1>
-        </div>
-        <nav>
+        <nav class = "delay-1s slideInDown animated">
             <ul>
-                <li><a class = "active">Home</a></li>
+                <li><a class = "active" href = "home.html">Home</a></li>
                 <li><a>Habitat</a></li>
                 <li><a>Diet</a></li>
-                <li><a>Fun Facts</a></li>
+                <li><a href = "fun%20facts.html">Fun Facts</a></li>
                 <li><a>Contact</a></li>
             </ul>
         </nav>
-        <img class = "static" src="images/panda%20dance.gif" alt="Panda">
+        <div class = center>
+            <h1>Pandas</h1>
+        </div>
+        <div id = "under" class = "delay-2s fadeInUp animated">
+            <h3><a>About</a></h3>
+        </div>
+
+        <div id = "dance"><img src="images/panda%20dance.gif" alt="Panda"></div>
+
     </div>
 
 </body>
