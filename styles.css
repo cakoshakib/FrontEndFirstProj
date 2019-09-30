@@ -49,6 +49,84 @@ h1{
     color: #805d3a;
 
 }
+#mytitle{
+    font-size:2em;
+    display:inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding:5px;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, .6);
+}
+#ok{
+    text-align: center;
+    margin: 0;
+    min-height: 90%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding:5px;
+    border-radius:10px;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, .7);
+}
+h3{
+    font-size: 20px;
+}
+#crown{
+    position: absolute;
+    top: 18%;
+    left: 49%;
+}
+#one {
+    top: 25%;
+    left: 25%;
+}
+#two{
+    top: 25%;
+    left: 47%;
+}
+#three{
+    top: 25%;
+    left: 69%;
+}
+#four {
+    top: 60%;
+    left: 25%;
+}
+#five{
+    top: 60%;
+    left: 47%;
+}
+#six{
+    top: 60%;
+    left: 69%;
+}
+.people {
+    display:inline-block;
+    position: absolute;
+    border-radius: 10%;
+    padding:5px;
+    min-height: 20%;
+    max-width: 10%;
+    text-align: center;
+    color: rgba(150,150,150,.8);
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.pic{
+    border-radius: 10%;
+}
+.people:hover {
+    background-color: rgba(25, 25, 25, .7);
+    color: rgba(220,220,220,1);
+}
+.people:hover .pic{
+    filter:blur(2px) brightness(50%);
+}
 nav ul li:last-child {
     float:right;
 }
