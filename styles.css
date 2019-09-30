@@ -8,6 +8,7 @@ body {
     background-left: 50%;
     background-ms-transform: translate(-50%, -50%);
     background-transform: translate(-50%, -50%);
+    background-attachment:fixed;
 
 
 }

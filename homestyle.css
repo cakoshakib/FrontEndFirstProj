@@ -1,7 +1,7 @@
 body {
     background: url(images/Forest-Desktop-Backgrounds-Wallpaper-Picture.jpg), center, no-repeat;
     background-size:cover;
-
+    background-attachment:fixed;
 }
 
 #container {
