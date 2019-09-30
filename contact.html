@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Jaldi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Animate.css" type="text/css"/>
+    <script type="text/javascript">var submitted=false;</script> <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='contact.html';}"></iframe>
+</head>
+
+<body>
+<nav class="">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href = "habitat.html">Habitat</a></li>
+        <li><a href="diet.html">Diet</a></li>
+        <li><a href="fun%20facts.html">Fun Facts</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+<div id="main">
+    <h1 id = "contact" class="delay-1s fadeIn animated"> Contact </h1>
+    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSehn2GJ6VX3zxQEnA-rt8e1KzRx8PrQC28zWseANvDXh2_jJg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+        <div class="row">
+
+            <label class="required" for="name"><h2 class = "labels">Name</h2></label><br/>
+
+            <input id="name" class="input" name="entry.191236105" type="text" value="" size="30"/><br/>
+
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="email"><h2 class = "labels">Email Address</h2></label><br/>
+            <input id="email" class="input" name="entry.136372951" type="text" value="" size="30"/><br/>
+            <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="message"><h2 class = "labels">Message</h2></label><br/>
+            <textarea id="message" class="input" name="entry.379031906" rows="7" cols="30"></textarea><br/>
+            <span id="message_validation" class="error_message"></span>
+        </div>
+        <input id="submit_button" type="submit" value="Send email"/>
+    </form>
+</div>
+</body>
+</html>
