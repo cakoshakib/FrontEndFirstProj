@@ -112,6 +112,8 @@ h3{
 
 .pic{
     border-radius: 10%;
+    width: 100px;
+    height: 100px;
 }
 .people:hover {
     background-color: rgba(25, 25, 25, .7);
@@ -155,17 +157,23 @@ li a {
             -2px 2px 0 #000,
             2px 2px 0 #000;
     font-size:1em;
+
+
 }
 li a:hover {
-    border-bottom:solid;
-    border-width: 1px;
+    border-color: rgba(255,255,255,1)
 }
 a {
     color:white;
+    border-bottom:solid;
+    border-width: .1px;
+    border-color: rgba(255,255,255,0)
 }
 .active {
     color: green;
 
 }
 .active:hover {
+    border-color: rgba(0,128,0,1)
+
 }
