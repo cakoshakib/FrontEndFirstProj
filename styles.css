@@ -234,5 +234,7 @@ form {
     background-color:blue;
 }
 
+input {
+    font-family: 'Courier', monospace;
 
-
+}
